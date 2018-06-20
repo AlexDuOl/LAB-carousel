@@ -1,0 +1,41 @@
+* {
+  background-color: #5b5858;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Dawing of a New Day", cursive;
+}
+
+img {
+  border: 10px solid white;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.carousel-content {
+  display: none;
+}
+
+.carousel-content.actuive {
+  display: block;
+}
+
+.control {
+  border: 10px solid white;
+  border-radius: 50%;
+  height: 20px;
+  margin: 10px;
+  width:  20px;
+
+}
+
+.previous, .next {
+  color: white;
+  margin: 10px 30px;
+}
+
+.control:hover, .previous:hover, next:hover {
+  background-color: #4db6ac;
+  border: 1px solid #4db6ac
+}
